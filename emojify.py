@@ -7,6 +7,7 @@ def emojify(input_text):
     convert = {
         'happy': '\u1F60',
         'sad': '\uFE0F',
+        'confused': '\uF615',
     }
 
     for word in input_text.split():
