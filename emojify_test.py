@@ -14,3 +14,11 @@ def test_sad():
 
     actual = emojify.emojify(test)
     assert actual == expected
+
+
+def test_confused():
+    test = "I am confused"
+    expected = "I am \uF615"
+
+    actual = emojify.emojify(test)
+    assert actual == expected
